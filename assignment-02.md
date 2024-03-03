@@ -12,13 +12,13 @@ and push to your github repository.
 
 1. Derive asymptotic upper bounds of work for each recurrence below.
   * $W(n)=2W(n/3)+1$
-.  $O(n^(log_3 2))$
+.  O(n^(log_3 2))
 .  
 .  
 .  
 .  
   * $W(n)=5W(n/4)+n$
-.  $O(n^log_4 5)$
+.  O(n^log_4 5)
 .  
 .  
 .  
@@ -30,13 +30,13 @@ and push to your github repository.
 .  
 .  
   * $W(n)=9W(n/3)+n^2$
-.  $O(n^2 log n)$
+.  $O(n^2 * log n)$
 .  
 .  
 .  
 .  
   * $W(n)=8W(n/2)+n^3$
-.  $O(n^3 log n)$
+.  $O(n^3 * log n)$
 .  
 .  
 .  
@@ -69,6 +69,7 @@ and push to your github repository.
       five subproblems of half the size, recursively solving each
       subproblem, and then combining the solutions in linear time.
     
+    
   * Algorithm $\mathcal{B}$ solves problems of size $n$ by
       recursively solving two subproblems of size $n-1$ and then
       combining the solutions in constant time.
@@ -80,6 +81,10 @@ and push to your github repository.
 
     What are the asymptotic running times of each of these algorithms?
     Which algorithm would you choose?
+    - asymptotic run time of A: O(n^(log_2 5))
+    - asymptotic run time of B: O(2^n)
+    - asymptotic run time of C: O(n^2 logn)
+    - **I would choose the algorithm with the showrtest run time, A**
 
 
 3. Now that you have some practice solving recurrences, let's work on
