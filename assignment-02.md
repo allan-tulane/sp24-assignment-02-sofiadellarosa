@@ -84,7 +84,7 @@ and push to your github repository.
     - asymptotic run time of A: O(n^(log_2 5))
     - asymptotic run time of B: O(2^n)
     - asymptotic run time of C: O(n^2 logn)
-    - **I would choose the algorithm with the showrtest run time, A**
+    - **I would choose the algorithm with the shortest run time, A**
 
 
 3. Now that you have some practice solving recurrences, let's work on
